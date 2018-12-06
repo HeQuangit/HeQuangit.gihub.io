@@ -1,0 +1,67 @@
+body{width: 100%;height: 100%;box-sizing: border-box; background: url(imgs/spbg.png) no-repeat top center /100%;}
+a:hover{text-decoration: none;}
+.toup{display: block;margin: auto;margin-top:75%; width:96%;height:auto;}
+.nav_list{margin: auto;margin-top:20px; width: 90%;height:253px;}
+.nav_list ul{margin: auto; width:98%;height: 100%;overflow: hidden;}
+.nav_list ul li{margin: auto; float: left; width:50%;height:50%;overflow: hidden;}
+/*.nav_list ul li a{display: block;width: 100%;height: 100%;}*/
+.nav_list ul li img{display: block;margin: auto; width:76%;height:auto;}
+/*投票规则*/
+.Voting_rules{margin: auto;margin-bottom:7px;width:95%;height:auto;}
+.Voting_rules  a img{width:100%;height: auto;}
+/*确认投票页*/
+.head_tile{position: relative;margin: auto;margin-top: 75%; width:96%;height:43px;}
+.head_tile img{width:100%;height:auto;}
+.head_tile p{display:inline-block;position:absolute;width:97%;margin:auto;text-align:center;line-height:32px;height:78%;bottom:0px;font-family:"微软雅黑";left:0;right:0;top:0;font-weight:600;font-size:1.2em;overflow: hidden;}
+.conterf{margin: auto;margin-top: 30px;margin-bottom:7px; width: 96%;height:225px;overflow: hidden;}
+.conter_list{width:100%;height:235px;padding: 0px 15px;box-sizing: border-box; overflow:auto;box-sizing: border-box;}
+.conter_list ul{width: 100%;height:auto;}
+.conter_list ul li{float:left;margin-right:6%;margin-bottom:30px; width:47%;height:117px;overflow: hidden;}
+.conter_list ul li:nth-child(2n){margin-right: 0px !important;}
+/*内容信息*/
+.himg{position: relative; width:100%;height:80px;}  
+.himg img{width:100%;height:80px;overflow: hidden;}  
+.himg p{position: absolute;bottom: 0px; width: 100%;height:20px;line-height:20px; font-family: "微软雅黑";color:#ffffff; background:url(imgs/tm.png) ;}
+.himg p span{font-size: 12px;font-family: "微软雅黑";}
+.numb{float: left;padding-left: 2px; width:49%;overflow: hidden;height: 18px;box-sizing: border-box;}
+.detaiw{float: left; width:50%;text-align: center;overflow: hidden;height: 18px;}
+.bchak{margin-top: 4px; width: 100%;height:40px;}
+.bchak h3{float: left; width:14px;height: 30px;box-sizing: border-box; line-height:50px;overflow: hidden;font-family: "微软雅黑";}
+.bchak input{float: left; width:20px;height:37px;border: none;}
+.bchak p{width:66%;height:30px; float: left;margin-left:2%;box-sizing: border-box;}
+.bchak p span:nth-child(1){display: block; width:100%;height: 17px;overflow: hidden;font-family: "微软雅黑";}
+.bchak p span:nth-child(2){display: block;float: left; width:46%;height: 17px;overflow: hidden;font-family: "微软雅黑";}
+.bchak p span:nth-child(3){display: block;float: left;text-align: center; width:54%;height: 17px;overflow: hidden;font-family: "微软雅黑";}
+/*确认投票*/
+.Conf_vot{margin: auto;margin-bottom:19px; width: 90%;height: 30px;}
+.Conf_vot p{margin: auto;border: none; width:60%;height:35px;background: url(imgs/quren_03.png) no-repeat center top /100%;}
+/*作品详情*/
+.Conf_Dishi{margin:auto;margin-bottom:20px; width: 90%;height: 30px;}
+.Conf_Dishi button{display: block; margin: auto;border: none;outline: none;width:60%;height:35px;background: url(imgs/BackVoi_03.png) no-repeat center top /100%;}
+.ConfiD_list{margin: auto;margin-top: 30px;width:87%;height:230px;overflow: hidden;}
+.ConfiD_list img{width: 100%;height:100px;margin-bottom: 10px;}
+.ConfiD_list p{width: 100%;height:110px;font-size:1.2em;font-family: "微软雅黑";overflow: hidden;}
+@media only screen and (min-width:360px) {
+.Voting_rules{margin-bottom: 40px;}
+.Conf_vot{margin-bottom:62px !important;}
+.Conf_Dishi{margin-bottom: 65px;}
+.head_tile p{line-height: 37px !important;}
+}
+@media only screen and (min-width:375px){
+	.head_tile p{height:70% !important;}
+	.Voting_rules{margin-bottom:56px;}
+	.conterf{margin-top: 78px !important;}
+	.ConfiD_list{margin-top: 50px !important;}
+	.Conf_Dishi{margin-bottom: 60px !important;}
+    .Conf_vot{margin-bottom:30px !important;}
+    /*.ruesC{margin-bottom:53px !important;}*/
+}
+@media only screen and (min-width:411px){  
+  .Conf_vot{margin-bottom:74px !important;}
+  .Conf_Dishi p{height: 43px !important;}
+  .Conf_Dishi{height: 36px !important;}
+  .ConfiD_list{margin-top: 50px !important;margin-bottom: 40px !important;}
+  .nav_list{height: 300px !important;}
+  .head_tile p{line-height: 41px !important;}
+ /* .ruesC{margin-bottom: 72px !important;}*/
+}
